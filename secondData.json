@@ -1,0 +1,232 @@
+{
+    "WebDesignData" : {
+        "HeaderImg": [
+            {"img": "https://people.com/thmb/kezLbSxd73upjpeTinXKmA12drE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/Lil-Nas-X-Coach-04-100322-28e8a8221dbb466e92ba20a9cefee799.jpg"},
+            {"img": "https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/zvu0crrwtfs902jkyuph/x?fimg-ssr-default"}
+        ]
+    },
+    "ProductData" : [
+        {"id":1, 
+         "productName":"Tabby shoulder bag",
+         "category":1,
+         "price": 579,
+         "salePrecent": 30,
+         "quantity":10,
+         "brandId":1,
+         "description": {"material": "Calf Leather 100%", "color": "brown", "feature": "gold-tone logo plaque"},
+         "create":{
+            "date": {"Year":"2023", "Month":"01", "Day":"01"}, 
+            "createdUserId":""
+         },
+         "update":{
+            "status": false, 
+            "date":{"Year":"0", "Month":"0", "Day":"0"},
+            "updateUser": ""
+         }, 
+         "img":[
+            {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41177213_1000.jpg"},
+            {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41177209_1000.jpg"},
+            {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176578_1000.jpg"}, 
+            {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41278527_1000.jpg"}
+         ],
+         "thumb":"https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176576_1000.jpg"
+         },
+         {"id":2, 
+            "productName":"Tasche logo-charm shoulder bag",
+            "category":1,
+            "price": 356,
+            "salePrecent": 0,
+            "quantity":10,
+            "brandId":1,
+            "description": {"material": "Calf Leather 100%", "color": "chalk white", "feature": "grained texture"},
+            "create":{
+               "date": {"Year":"2023", "Month":"01", "Day":"01"}, 
+               "createdAdminId":"1"
+            },
+            "update":{
+               "status": false, 
+               "date":{"Year":"0", "Month":"0", "Day":"0"},
+               "updateUser": ""
+            }, 
+            "img":[
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41177213_1000.jpg"},
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41177209_1000.jpg"},
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176578_1000.jpg"}, 
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41278527_1000.jpg"}
+             ],
+             "thumb":"https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176576_1000.jpg"
+            },
+        {"id":3, 
+            "productName":"Rori Sandal",
+            "category":2,
+            "price": 228,
+            "salePrecent": 35,
+            "quantity":10,
+            "brandId":1,
+            "description": {"material": "Leather upper", "color": "black", "feature": "Rubber outsole"},
+            "create":{
+               "date": {"Year":"2023", "Month":"01", "Day":"01"}, 
+               "createdAdminId":"1"
+            },
+            "update":{
+               "status": false, 
+               "date":{"Year":"0", "Month":"0", "Day":"0"},
+               "updateUser": ""
+            }, 
+            "img":[
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41177213_1000.jpg"},
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41177209_1000.jpg"},
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176578_1000.jpg"}, 
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41278527_1000.jpg"}
+             ],
+             "thumb":"https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176576_1000.jpg"
+            }
+    ],
+    "CategoryId":[
+        {"id":1, "category": "Bag"},
+        {"id":2, "category": "Shoes"}
+    ],
+    "BrandId" : [
+        {"id":1, "brandName" : "Coach"},
+        {"id":2, "brandName" : "Prada"}
+    ],
+    "AdminUsers" :[
+        {"id":1, 
+         "adminName":"Daria", 
+         "email": ""
+         }
+    ],
+    "Users":[
+        {"id":1, 
+         "name": "Bat", 
+         "email": "",
+         "password": 9922,
+         "phone": 99238974,
+         "lastLoginDate": {"Year":"2023", "Month":"01", "Day":"01"},
+         "likes": []
+         },
+         {"id":2, 
+            "name": "Bat", 
+            "email": "",
+            "password": 9922,
+            "phone": 99238974,
+            "lastLoginDate": {"Year":"2023", "Month":"01", "Day":"01"},
+            "likes": []
+            }
+    ]
+},
+
+
+
+
+{"CategoryId":[
+   {"id":1, "category": "Bag"},
+   {"id":2, "category": "Shoes"}],
+"BrandId" : [
+   {"id":1, "brandName" : "Coach"},
+   {"id":2, "brandName" : "Prada"}]
+}
+
+{"Users":[
+   {"id":1, 
+    "name": "Bat", 
+    "email": "",
+    "password": 9922,
+    "phone": 99238974,
+    "lastLoginDate": {"Year":"2023", "Month":"01", "Day":"01"},
+    "likes": []
+    },
+    {"id":2, 
+       "name": "Bat", 
+       "email": "",
+       "password": 9922,
+       "phone": 99238974,
+       "lastLoginDate": {"Year":"2023", "Month":"01", "Day":"01"},
+       "likes": []
+       }
+],
+"AdminUsers" :[
+   {"id":1, 
+    "adminName":"Daria", 
+    "email": ""
+    }
+]
+}
+
+
+[       {"id":1, 
+         "productName":"Tabby shoulder bag",
+         "category":1,
+         "price": 579,
+         "salePrecent": 30,
+         "quantity":10,
+         "brandId":1,
+         "description": {"material": "Calf Leather 100%", "color": "brown", "feature": "gold-tone logo plaque"},
+         "create":{
+            "date": {"Year":"2023", "Month":"01", "Day":"01"}, 
+            "createdUserId":""
+         },
+         "update":{
+            "status": false, 
+            "date":{"Year":"0", "Month":"0", "Day":"0"},
+            "updateUser": ""
+         }, 
+         "img":[
+            {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41177213_1000.jpg"},
+            {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41177209_1000.jpg"},
+            {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176578_1000.jpg"}, 
+            {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41278527_1000.jpg"}
+         ],
+         "thumb":"https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176576_1000.jpg"
+         },
+         {"id":2, 
+            "productName":"Tasche logo-charm shoulder bag",
+            "category":1,
+            "price": 356,
+            "salePrecent": 0,
+            "quantity":10,
+            "brandId":1,
+            "description": {"material": "Calf Leather 100%", "color": "chalk white", "feature": "grained texture"},
+            "create":{
+               "date": {"Year":"2023", "Month":"01", "Day":"01"}, 
+               "createdAdminId":"1"
+            },
+            "update":{
+               "status": false, 
+               "date":{"Year":"0", "Month":"0", "Day":"0"},
+               "updateUser": ""
+            }, 
+            "img":[
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41177213_1000.jpg"},
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41177209_1000.jpg"},
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176578_1000.jpg"}, 
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41278527_1000.jpg"}
+             ],
+             "thumb":"https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176576_1000.jpg"
+            },
+            {"id":3, 
+            "productName":"Rori Sandal",
+            "category":2,
+            "price": 228,
+            "salePrecent": 35,
+            "quantity":10,
+            "brandId":1,
+            "description": {"material": "Leather upper", "color": "black", "feature": "Rubber outsole"},
+            "create":{
+               "date": {"Year":"2023", "Month":"01", "Day":"01"}, 
+               "createdAdminId":"1"
+            },
+            "update":{
+               "status": false, 
+               "date":{"Year":"0", "Month":"0", "Day":"0"},
+               "updateUser": ""
+            }, 
+            "img":[
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41177213_1000.jpg"},
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41177209_1000.jpg"},
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176578_1000.jpg"}, 
+                {"img": "https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41278527_1000.jpg"}
+             ],
+             "thumb":"https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176576_1000.jpg"
+            }
+    ]

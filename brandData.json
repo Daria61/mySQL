@@ -1,0 +1,7 @@
+{"CategoryId":[
+    {"id":1, "category": "Bag"},
+    {"id":2, "category": "Shoes"}],
+ "BrandId" : [
+    {"id":1, "brandName" : "Coach"},
+    {"id":2, "brandName" : "Prada"}]
+}

@@ -1,0 +1,25 @@
+{"Users":[
+    {"id":1, 
+     "name": "Bat", 
+     "email": "",
+     "password": 9922,
+     "phone": 99238974,
+     "lastLoginDate": {"Year":"2023", "Month":"01", "Day":"01"},
+     "likes": []
+     },
+     {"id":2, 
+        "name": "Bat", 
+        "email": "",
+        "password": 9922,
+        "phone": 99238974,
+        "lastLoginDate": {"Year":"2023", "Month":"01", "Day":"01"},
+        "likes": []
+        }
+],
+"AdminUsers" :[
+    {"id":1, 
+     "adminName":"Daria", 
+     "email": ""
+     }
+]
+}
