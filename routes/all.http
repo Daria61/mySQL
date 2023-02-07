@@ -1,0 +1,242 @@
+// MENU
+###
+GET   http://localhost:8080/api/menu
+
+### 
+GET http://localhost:8080/api/menu/2
+
+### 
+POST http://localhost:8080/api/menu
+Content-Type:  application/json
+
+{
+   "menuName": "About", 
+   "link" : "/about" 
+}
+
+###
+DELETE http://localhost:8080/api/menu?id=1
+
+###
+PUT  http://localhost:8080/api/menu
+Content-Type: application/json
+
+{
+    "id": 2,
+    "menuName": "Home", 
+   "link" : "/home" 
+}
+
+
+
+
+
+
+//CATEGORY
+###
+GET   http://localhost:8080/api/category
+
+### 
+GET http://localhost:8080/api/category/2
+
+### 
+POST http://localhost:8080/api/category
+Content-Type:  application/json
+
+{
+  "category" : "Clothes" 
+}
+
+###
+DELETE http://localhost:8080/api/category?id=2
+
+###
+PUT  http://localhost:8080/api/category
+Content-Type: application/json
+
+{
+   "category" : "Bags" 
+}
+
+
+
+
+
+
+//PRODUCTS
+###
+GET   http://localhost:8080/api/products
+
+### 
+GET http://localhost:8080/api/products/cff3bb53-3f58-4b75-9c58-73750c52b344
+
+### 
+POST http://localhost:8080/api/products
+Content-Type:  application/json
+
+{ 
+   "productName":"Morgan Saddle Bag In Signature Canvas",
+   "category":["sdhfjah","ajdfljhad"],
+   "price": "428",
+   "salePrecent": "60",
+   "quantity": "10",
+   "brandId": 1,
+   "material": "Leather upper",
+   "color": "black", 
+   "feature": "Rubber outsole",
+   "create":{
+      "date": {"Year":"2023", "Month":"01", "Day":"01"}, 
+      "createdAdminId":"1"
+   },
+   "update":{
+      "status": false, 
+      "date":{"Year":"0", "Month":"0", "Day":"0"},
+      "updateUser": ""
+   }, 
+   "img":[ ],
+    "thumb":"https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176576_1000.jpg"
+}
+
+###
+DELETE http://localhost:8080/api/products?id=3bda118d-cd22-4c4d-9d15-4cea803b34d7
+
+###
+PUT  http://localhost:8080/api/products
+Content-Type: application/json
+
+{
+   "id":3, 
+   "productName":"Rori Sandal",
+   "category":3,
+   "price": 228,
+   "salePrecent": 35,
+   "quantity":10,
+   "brandId":1,
+   "description": {"material": "Leather upper", "color": "black", "feature": "Rubber outsole"},
+   "create":{
+      "date": {"Year":"2023", "Month":"01", "Day":"01"}, 
+      "createdAdminId":"1"
+   },
+   "update":{
+      "status": false, 
+      "date":{"Year":"0", "Month":"0", "Day":"0"},
+      "updateUser": ""
+   }, 
+   "img":[  ],
+    "thumb":"https://cdn-images.farfetch-contents.com/18/89/74/30/18897430_41176576_1000.jpg"
+}
+
+
+
+
+
+
+//USER
+
+###
+GET   http://localhost:8080/api/user
+
+### 
+GET http://localhost:8080/api/user/369cc96a-4f59-46fd-a9ae-653d50041cdf
+
+### 
+POST http://localhost:8080/api/user
+Content-Type:  application/json
+
+{
+   "name": "Nomio",
+      "email": "mail",
+      "password": 9922,
+      "phone": 99238974,
+      "likes": [] 
+}
+
+###
+DELETE http://localhost:8080/api/user/2
+
+###
+PUT  http://localhost:8080/api/user
+Content-Type: application/json
+
+{
+   "id": "2",
+   "name": "bbbbb",
+   "email": "",
+   "password": 9922,
+   "phone": 99238974,
+   "lastLoginDate": {
+     "Year": "2023",
+     "Month": "02",
+     "Day": "01"
+   },
+   "likes": [] 
+}
+
+
+
+
+//STAFFS
+
+###
+GET   http://localhost:8080/api/staffs
+
+### 
+GET http://localhost:8080/api/staffs/2
+
+
+
+###
+POST http://localhost:8080/api/staffs
+Content-Type:  application/json
+
+{
+   "name": "Erdenedari",
+   "email": "mail",
+   "password": 9922,
+   "phone": 99238974,
+   "img": ""
+}
+
+###
+DELETE http://localhost:8080/api/staffs/2
+
+###
+PUT  http://localhost:8080/api/staffs
+Content-Type: application/json
+
+{
+    "id": "be2ad40a-b2d4-4537-86b1-e567ac52bb56",
+    "name": "bat",
+   "email": "maill",
+   "password": 9932, 
+   "phone": 99238974
+}
+
+
+
+
+//brands
+###
+GET   http://localhost:8080/api/brands
+
+### 
+GET http://localhost:8080/api/brands/2
+
+### 
+POST http://localhost:8080/api/brands
+Content-Type:  application/json
+
+{
+  "brandName" : "Clothes" 
+}
+
+###
+DELETE http://localhost:8080/api/brands?id=55ef9d22-c128-4387-86b0-080a32be6b7d
+
+###
+PUT  http://localhost:8080/api/brands
+Content-Type: application/json
+
+{
+   "brandName" : "Bags" 
+}
