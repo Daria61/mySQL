@@ -29,7 +29,6 @@ exports.getOne= (req, res) => {
 
 exports.create = (req, res) =>{
     const body = req.body
-    console.log(body);
     fs.readFile(DataFile, "utf-8", (err, data)=>{
         if(err){
             return res.json({status: false, message: err})

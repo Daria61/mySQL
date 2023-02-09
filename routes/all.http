@@ -231,7 +231,7 @@ Content-Type:  application/json
 }
 
 ###
-DELETE http://localhost:8080/api/brands?id=55ef9d22-c128-4387-86b0-080a32be6b7d
+DELETE http://localhost:8080/api/brands?id=5f04d424-2f42-4d2d-a32f-7883afbe8b22
 
 ###
 PUT  http://localhost:8080/api/brands
