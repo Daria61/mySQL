@@ -136,6 +136,16 @@ Content-Type: application/json
 ###
 GET   http://localhost:8080/api/user
 
+
+###
+POST    http://localhost:8080/api/user/login
+Content-Type:  application/json
+
+{
+      "email": "email",
+      "password": "8974"
+}
+
 ### 
 GET http://localhost:8080/api/user/369cc96a-4f59-46fd-a9ae-653d50041cdf
 
@@ -145,10 +155,9 @@ Content-Type:  application/json
 
 {
    "name": "Nomio",
-      "email": "mail",
-      "password": 9922,
+      "email": "email",
+      "password": "8974",
       "phone": 99238974,
-      "likes": [] 
 }
 
 ###
@@ -161,14 +170,9 @@ Content-Type: application/json
 {
    "id": "2",
    "name": "bbbbb",
-   "email": "",
-   "password": 9922,
+   "email": "ii",
+   "password": "8974",
    "phone": 99238974,
-   "lastLoginDate": {
-     "Year": "2023",
-     "Month": "02",
-     "Day": "01"
-   },
    "likes": [] 
 }
 

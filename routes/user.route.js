@@ -7,5 +7,6 @@ router.get("/user/:id", user.getOne)
 router.post("/user", user.create)
 router.delete("/user/:id", user.delete)
 router.put("/user", user.put)
+router.post("/user/login", user.login )
 
 module.exports = router
