@@ -1,12 +1,62 @@
-const express = require("express") 
-const router = express.Router()
-const user = require("../controllers/user.controller.js")
+import express from "express";
+import{
+    getUser,
+    getUsers,
+    deleteUser,
+    createUser,
+    updateUser
+} from "../service/user_service.js";
 
-router.get("/user", user.getAll)
-router.get("/user/:id", user.getOne)
-router.post("/user", user.create)
-router.delete("/user/:id", user.delete)
-router.put("/user", user.put)
-router.post("/user/login", user.login )
+const router = express.Router();
 
-module.exports = router
+router.get("/users", async (req, res)=> {
+    const { query } = req; 
+    const result = await getUsers(query.limit);
+    res.status(200).send(result);
+})
+
+router.get("/user", async (req, res)=>{
+    const { query } = req;
+    console.log(query.id);
+    const result = await getUser(query.id);
+    res.status(200).send(result);
+})
+
+router.post("/user", async (req, res)=>{
+    const { body } = req; 
+    const id = null
+    
+    const { name, user_type , email, password, phone, picture } = body; 
+    const result = await createUser(
+        id , 
+        name, 
+        user_type, 
+        email, 
+        password,
+        phone, 
+        picture
+    ); 
+    res.status(200).send(result);
+})
+
+router.post("/user/login", async (req, res)=> {
+    const { query } = req;
+    const result = await getUser(query.id)
+        res.status(200).send(result)
+})
+
+router.delete("/user", async (req, res)=>{
+    const { query } = req; 
+    const result = await deleteUser( query.id);
+    res.status(200).send(result);
+})
+
+router.put("/user", async (req, res)=> {
+    const { query, body } = req;
+    const result = await updateUser( query.id, body);
+    res.status(200).send(result)
+})
+
+
+
+export default router

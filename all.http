@@ -1,43 +1,9 @@
-// MENU
-###
-GET   http://localhost:8080/api/menu
-
-### 
-GET http://localhost:8080/api/menu/2
-
-### 
-POST http://localhost:8080/api/menu
-Content-Type:  application/json
-
-{
-   "menuName": "About", 
-   "link" : "/about" 
-}
-
-###
-DELETE http://localhost:8080/api/menu?id=1
-
-###
-PUT  http://localhost:8080/api/menu
-Content-Type: application/json
-
-{
-    "id": 2,
-    "menuName": "Home", 
-   "link" : "/home" 
-}
-
-
-
-
-
-
 //CATEGORY
 ###
-GET   http://localhost:8080/api/category
+GET   http://localhost:8080/api/categories
 
 ### 
-GET http://localhost:8080/api/category/2
+GET http://localhost:8080/api/category?id=1
 
 ### 
 POST http://localhost:8080/api/category
@@ -132,49 +98,51 @@ Content-Type: application/json
 
 
 //USER
-
 ###
-GET   http://localhost:8080/api/user
-
-
-###
-POST    http://localhost:8080/api/user/login
-Content-Type:  application/json
-
-{
-      "email": "email",
-      "password": "8974"
-}
+GET   http://localhost:8080/api/users?limit=10
 
 ### 
-GET http://localhost:8080/api/user/369cc96a-4f59-46fd-a9ae-653d50041cdf
+GET http://localhost:8080/localhost:8080/api/user?id=1
 
-### 
+###
 POST http://localhost:8080/api/user
 Content-Type:  application/json
 
 {
-   "name": "Nomio",
-      "email": "email",
+      "name": "Daria",
+      "user_type": "user",
+      "email" : "email",
       "password": "8974",
       "phone": 99238974,
+      "picture": "url"
 }
 
 ###
-DELETE http://localhost:8080/api/user/2
+POST    http://localhost:8080/api/user/login?id=2
+Content-Type:  application/json
+
+{
+    
+}
 
 ###
-PUT  http://localhost:8080/api/user
+DELETE http://localhost:8080/api/user?id=1
+
+###
+PUT  http://localhost:8080/api/user?id=2
 Content-Type: application/json
 
 {
-   "id": "2",
-   "name": "bbbbb",
-   "email": "ii",
+   "name": "Enkhlen",
+   "user_type": "admin",
+   "email": "email",
    "password": "8974",
    "phone": 99238974,
-   "likes": [] 
+   "picture": "url"
 }
+
+
+
 
 
 
@@ -224,23 +192,34 @@ Content-Type: application/json
 GET   http://localhost:8080/api/brands
 
 ### 
-GET http://localhost:8080/api/brands/2
+GET http://localhost:8080/api/brand?id=1
 
 ### 
-POST http://localhost:8080/api/brands
+POST http://localhost:8080/api/brand
 Content-Type:  application/json
 
 {
-  "brandName" : "Clothes" 
+  "name" : "Prada" 
 }
 
 ###
-DELETE http://localhost:8080/api/brands?id=5f04d424-2f42-4d2d-a32f-7883afbe8b22
+DELETE http://localhost:8080/api/brand?id=1
+
+# ###
+# PUT  http://localhost:8080/api/brands
+# Content-Type: application/json
+
+# {
+#    "brandName" : "Bags" 
+# }
+
+
+
+
+//design
+###
+GET   http://localhost:8080/api/design
+
 
 ###
-PUT  http://localhost:8080/api/brands
-Content-Type: application/json
-
-{
-   "brandName" : "Bags" 
-}
+PUT  http://localhost:8080/api/design
